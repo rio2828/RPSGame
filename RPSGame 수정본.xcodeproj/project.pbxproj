@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C32F9ED27BA27C1004827C9 /* Rps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C32F9EC27BA27C1004827C9 /* Rps.swift */; };
+		2C706FC828DDD991003F8425 /* RPSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C706FC728DDD991003F8425 /* RPSManager.swift */; };
 		2CBA110227BA14AE00397F02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA110127BA14AE00397F02 /* AppDelegate.swift */; };
 		2CBA110427BA14AE00397F02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA110327BA14AE00397F02 /* SceneDelegate.swift */; };
 		2CBA110627BA14AE00397F02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA110527BA14AE00397F02 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		2C32F9EC27BA27C1004827C9 /* Rps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rps.swift; sourceTree = "<group>"; };
+		2C706FC728DDD991003F8425 /* RPSManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSManager.swift; sourceTree = "<group>"; };
 		2CBA10FE27BA14AE00397F02 /* RPSGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPSGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBA110127BA14AE00397F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CBA110327BA14AE00397F02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C706FC428DDD255003F8425 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CBA110527BA14AE00397F02 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2C706FC528DDD296003F8425 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CBA110727BA14AE00397F02 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C706FC628DDD299003F8425 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C32F9EC27BA27C1004827C9 /* Rps.swift */,
+				2C706FC728DDD991003F8425 /* RPSManager.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		2CBA10F527BA14AE00397F02 = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +87,9 @@
 			children = (
 				2CBA110127BA14AE00397F02 /* AppDelegate.swift */,
 				2CBA110327BA14AE00397F02 /* SceneDelegate.swift */,
-				2C32F9EC27BA27C1004827C9 /* Rps.swift */,
-				2CBA110527BA14AE00397F02 /* ViewController.swift */,
-				2CBA110727BA14AE00397F02 /* Main.storyboard */,
+				2C706FC628DDD299003F8425 /* Models */,
+				2C706FC528DDD296003F8425 /* Views */,
+				2C706FC428DDD255003F8425 /* Controllers */,
 				2CBA110A27BA14B000397F02 /* Assets.xcassets */,
 				2CBA110C27BA14B000397F02 /* LaunchScreen.storyboard */,
 				2CBA110F27BA14B000397F02 /* Info.plist */,
@@ -105,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2CBA10F927BA14AE00397F02 /* Build configuration list for PBXProject "RPSGame" */;
+			buildConfigurationList = 2CBA10F927BA14AE00397F02 /* Build configuration list for PBXProject "RPSGame 수정본" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,6 +172,7 @@
 				2C32F9ED27BA27C1004827C9 /* Rps.swift in Sources */,
 				2CBA110227BA14AE00397F02 /* AppDelegate.swift in Sources */,
 				2CBA110427BA14AE00397F02 /* SceneDelegate.swift in Sources */,
+				2C706FC828DDD991003F8425 /* RPSManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CBA10F927BA14AE00397F02 /* Build configuration list for PBXProject "RPSGame" */ = {
+		2CBA10F927BA14AE00397F02 /* Build configuration list for PBXProject "RPSGame 수정본" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CBA111027BA14B000397F02 /* Debug */,
